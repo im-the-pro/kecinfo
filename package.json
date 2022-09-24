@@ -1,0 +1,29 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "nodemon test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/local-auth": "^2.1.0",
+    "bcrypt": "^5.0.1",
+    "express": "^4.17.3",
+    "googleapis": "^105.0.0",
+    "image-conversion": "^2.1.1",
+    "ip": "^1.1.8",
+    "jimp": "^0.16.2",
+    "mongoose": "^6.2.5",
+    "nodemailer": "^6.7.2",
+    "socket.io": "^2.4.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
